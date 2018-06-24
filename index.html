@@ -6,7 +6,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Pizza</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
@@ -14,6 +14,8 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile.css">
+
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
 </head>
 
@@ -26,94 +28,59 @@
 
   <header>
     <div class="container">
-      <a href="#"><img src="img/pizza.png" height="60" width="205" class="logo"/></a>
-      <nav>
-        <ul class="contacts">
-          <li>
-            <img src="img/phone.png" height="28" width="28"/> +8890111-000-111
-          </li>
-          <li>
+      <div class="headers">
+        <a href="#"><img src="img/pizza.png" height="60" width="205" class="logo"/></a>
+        <div class="subheaders">
+          <div class="contacts">
+            <p>
+            <p><img src="img/phone.png" height="28" width="28"/><p>+8890111-000-111</p></p>
             <a href="https://www.facebook.com/" target="_blank"><img src="img/fb1.png" height="32" width="32"/></a>
-          </li>
-          <li>
             <a href="https://twitter.com/" target="_blank"><img src="img/twitter.png" height="32" width="32"/></a>
-          </li>
-          <li>
             <a href="https://www.linkedin.com" target="_blank"><img src="img/linkedin.png" height="32" width="32"/></a>
-          </li>
-          <li>
             <a href="https://plus.google.com" target="_blank"><img src="img/google+.png" height="32" width="32"/></a>
-          </li>
-          <li>
             <a href="https://pinterest.com" target="_blank"><img src="img/pinterest.png" height="32" width="32"/></a>
-          </li>
-        </ul>
-        <ul class="menu">
-          <li>
+          </div>
+          <div class="menu">
             <a href="#">Newsletter</a>
-          </li>
-          <li>
-            |
-          </li>
-          <li>
+            <p>|</p>
             <a href="#">Community</a>
-          </li>
-          <li>
-            |
-          </li>
-          <li>
+            <p>|</p>
             <a href="#">Shop</a>
-          </li>
-          <li>
-            |
-          </li>
-          <li>
+            <p>|</p>
             <a href="#">Contact us</a>
-          </li>
-        </ul>
-      </nav>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
   <section style="background-image: url('img/redrect.png'); background-repeat: no-repeat; width: 1820px; height: 766px">
     <div class="container">
-      <div class="create">
-        <h2 style="font-size: 60px">Create your own pizza</h2>
-        <p style="font-size: 25px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-        <button class="button">Read more</button>
+      <div class="sec1">
+        <div class="create">
+          <h2 style="font-size: 60px">Create your own pizza</h2>
+          <p style="font-size: 25px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <button class="button">Read more</button>
+        </div>
+        <img src="img/pizzapiece.png" height="578" width="546" style="float: right; margin-top: 50px"/>
       </div>
-      <img src="img/pizzapiece.png" height="578" width="546" style="float: right; margin-top: 50px"/>
     </div>
   </section>
   <section style="background-color: #eaeaea; width: 1820px; height: 982px">
     <div class="container">
-      <div>
+      <div class="headers2">
         <div class="progress">
           <img src="img/shape.png" height="28" width="102"/><h2>How to progress?</h2><img src="img/shape.png" height="28" width="102"/>
         </div>
         <p class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-        <ul class="products">
-          <li>
-            <a href="#">Pizza Cartoon</a>
-          </li>
-          <li>
-            |
-          </li>
-          <li>
-            <a href="#">Burger</a>
-          </li>
-          <li>
-            |
-          </li>
-          <li>
-            <a href="#">Sandwich</a>
-          </li>
-          <li>
-            |
-          </li>
-          <li>
-            <a href="#">Loremipsum</a>
-          </li>
-        </ul>
+        <div class="products">
+          <a href="#">Pizza Cartoon</a>
+          <p>|</p>
+          <a href="#">Burger</a>
+          <p>|</p>
+          <a href="#">Sandwich</a>
+          <p>|</p>
+          <a href="#">Loremipsum</a>
+        </div>
       </div>
       <div class="steps">
         <div>
@@ -133,7 +100,7 @@
         </div>
       </div>
     </div>
-    <a href="#" style="text-decoration: none"><h2 class="legend">Create your legend</h2></a>
+    <a href="#" class="legend"><p>Create your legend</p></a>
   </section>
   <section style="background-image: url('../dist/img/redrect2.png'); background-repeat: no-repeat; width: 1820px; height: 790px">
     <div class="container">
